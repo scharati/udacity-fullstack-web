@@ -1,0 +1,80 @@
+/*
+  Styling for the personal portfolio site
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container-col {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: column;
+}
+
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.flex-container-featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.logo {
+    /*	flex-basis: 20%;*/
+    flex: 1;
+    align-self: flex-start;
+    height: ;
+}
+
+.text-color{
+	color: #2d3c4;
+}
+
+.title-block {
+    /*flex-basis: 40%;*/
+    flex: 3;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: text-top;
+}
+
+.featured-header{
+	color: #7d97ad;
+	font-size: 20pt;
+}
+.name {
+    text-align: right;
+    font-size: 40pt;
+}
+.profile-info{
+	text-align: justify;
+	font-size: 24pt;	
+}
+.title {
+    text-align: right;
+    font-size: 20pt;
+}
+.bottom-border{
+	border-bottom: solid 2px #02b3e4;
+}
+
+.work-info {
+	text-align: center;
+}
+
+.work-name{
+	font-size: 32pt;
+	text-transform: uppercase;
+}
+
+.work-link{
+	font-size: 15pt;
+	text-transform: lowercase;
+}
